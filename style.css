@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Helvetica, sans-serif;
+    
 }
 
 form {
@@ -8,9 +10,31 @@ form {
     flex-direction: column;
     align-items: center;
     
+    
 }
 
 label{
-    margin-right: 12%;
+    margin-right: 15%;
     margin-top: 2%;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+button{
+    margin-top:3%;
+    width: 9%;
+    border-radius: 6px;
+    border-color: rgb(192, 186, 186);
+    font-size: 18px;
+}
+
+button:hover{
+    font-size: 19px;
+    transition: 0.5s;
+    width: 9.5%;
+}
+
+input{
+    font-size: 19px;
+    border-radius: 8px;
 }
