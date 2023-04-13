@@ -62,4 +62,5 @@ input{
     border-radius: 8px;
     background: linear-gradient(45deg, rgb(204, 0, 255), rgb(72, 0, 255));
     color: white;
+    border-color: rgb(255, 255, 255);
 }
