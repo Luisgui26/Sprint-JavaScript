@@ -2,15 +2,31 @@
     margin: 0;
     padding: 0;
     font-family:Helvetica, sans-serif;
+   
+    
+}
+
+header{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 7%;
+    background: linear-gradient(45deg, rgb(204, 0, 255), rgb(72, 0, 255));
+    color: aliceblue;
+}
+
+h1{
+    padding-bottom: 1%;
+    font-size: 40px;
     
 }
 
 form {
+    padding-top: 4%;
+    background-color: rgb(254, 253, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+    padding-bottom: 19%;
 }
 
 label{
@@ -18,23 +34,32 @@ label{
     margin-top: 2%;
     margin-bottom: 3px;
     font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 
 button{
     margin-top:3%;
     width: 9%;
     border-radius: 6px;
-    border-color: rgb(192, 186, 186);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
     font-size: 18px;
+    background-color: rgb(255, 254, 254);
 }
 
 button:hover{
-    font-size: 19px;
+    font-size: 20px;
     transition: 0.5s;
     width: 9.5%;
+    background: linear-gradient(45deg, rgb(204, 0, 255), rgb(72, 0, 255));
+    color: white;
+    border-radius: 20px;
+    border: none;
 }
 
 input{
     font-size: 19px;
     border-radius: 8px;
+    background: linear-gradient(45deg, rgb(204, 0, 255), rgb(72, 0, 255));
+    color: white;
 }
