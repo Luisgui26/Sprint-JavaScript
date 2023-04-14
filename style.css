@@ -60,8 +60,13 @@ button:hover{
 
 input{
     font-size: 19px;
-    border-radius: 8px;
-    background: linear-gradient(45deg, rgb(204, 0, 255), rgb(72, 0, 255));
+    border-radius: 14px;
+    background-color: rgb(70, 12, 218);
     color: white;
+    border: linear;
     border-color: rgb(255, 255, 255);
+}
+
+.frase{
+    margin-left: 2%;
 }
